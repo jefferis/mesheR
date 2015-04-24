@@ -104,7 +104,7 @@ discarded. Reduces distortion especially at mesh borders.}
 
 \item{col2}{color of moving mesh (if visualize = TRUE)}
 
-\item{bbox}{a 8 x 3 matrix with each row containing the corner of a bounding box generated with the function \link{\code{getMeshBox}}, or complying with the specification of \code{corners} in \code{\link{makeBox}}. Everything outside this box will be ignored.}
+\item{bbox}{a 8 x 3 matrix with each row containing the corner of a bounding box generated with the function \code{\link{getMeshBox}}, or complying with the specification of \code{corners} in \code{\link{makeBox}}. Everything outside this box will be ignored.}
 
 \item{\dots}{Further arguments passed to \code{nn2}.}
 }
